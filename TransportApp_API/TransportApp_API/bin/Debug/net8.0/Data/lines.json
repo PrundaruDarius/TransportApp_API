@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "code": "1",
+        "name": "Linia 1 — Gară ⇄ Pasul Buzăului/Școală Sărămaș"
+    },
+    {
+        "id": 2,
+        "code": "2",
+        "name": "Linia 2 — Gară ⇄ Scrădoasa 2"
+    },
+    {
+        "id": 3,
+        "code": "3",
+        "name": "Linia 3 — Gară ⇄ Prieteniei"
+    },
+    {
+        "id": 4,
+        "code": "4",
+        "name": "Linia 4 — Gară ⇄ Magazin Aviatorului"
+    }
+]

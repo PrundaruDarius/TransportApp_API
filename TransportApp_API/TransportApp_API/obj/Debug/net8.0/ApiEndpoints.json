@@ -1,0 +1,78 @@
+[
+  {
+    "ContainingType": "TransportApp.API.Controllers.AnnouncementsController",
+    "Method": "Get",
+    "RelativePath": "api/Announcements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp.API.Controllers.DocumentsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Documents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp.API.Controllers.DocumentsController",
+    "Method": "GetFile",
+    "RelativePath": "api/Documents/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp.API.Controllers.LinesController",
+    "Method": "Get",
+    "RelativePath": "api/Lines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp.API.Controllers.PricesController",
+    "Method": "Get",
+    "RelativePath": "api/Prices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp.API.Controllers.StationsController",
+    "Method": "Get",
+    "RelativePath": "api/Stations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp.API.Controllers.TimetableController",
+    "Method": "Get",
+    "RelativePath": "api/Timetable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,21 @@
+{
+    "singleTickets": [
+        {
+            "id": "t1",
+            "name": "Bilet (o călătorie)",
+            "price": "5 Lei"
+        }
+    ],
+    "subscriptions": [
+        {
+            "id": "s1",
+            "name": "Abonament lunar(13 zile)",
+            "price": "95 lei"
+        }
+    ],
+    "notes": [
+        "Reduceri conform legislației pentru elevi/studenți/seniori.",
+        "Tarifele pot fi ajustate în funcție de deciziile autorităților locale.",
+        "Abonamentele sunt nominale și netransmisibile."
+    ]
+}

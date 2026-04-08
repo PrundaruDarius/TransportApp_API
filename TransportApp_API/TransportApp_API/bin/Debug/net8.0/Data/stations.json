@@ -1,0 +1,386 @@
+[
+    {
+        "id": 1001,
+        "lineId": 1,
+        "name": "Gară",
+        "order": 0
+    },
+    {
+        "id": 1002,
+        "lineId": 1,
+        "name": "Complex",
+        "order": 1
+    },
+    {
+        "id": 1003,
+        "lineId": 1,
+        "name": "Capelă",
+        "order": 2
+    },
+    {
+        "id": 1004,
+        "lineId": 1,
+        "name": "Unikat",
+        "order": 3
+    },
+    {
+        "id": 1005,
+        "lineId": 1,
+        "name": "Observatorului",
+        "order": 4
+    },
+    {
+        "id": 1006,
+        "lineId": 1,
+        "name": "Crivină",
+        "order": 5
+    },
+    {
+        "id": 1007,
+        "lineId": 1,
+        "name": "Școală Bradet",
+        "order": 6
+    },
+    {
+        "id": 1008,
+        "lineId": 1,
+        "name": "Băilești",
+        "order": 7
+    },
+    {
+        "id": 1009,
+        "lineId": 1,
+        "name": "Pasul Buzăului-Capăt Linie",
+        "order": 8
+    },
+    {
+        "id": 1010,
+        "lineId": 1,
+        "name": "Băilești",
+        "order": 9
+    },
+    {
+        "id": 1011,
+        "lineId": 1,
+        "name": "Școală Bradet",
+        "order": 10
+    },
+    {
+        "id": 1012,
+        "lineId": 1,
+        "name": "Cămin Bradet",
+        "order": 11
+    },
+    {
+        "id": 1013,
+        "lineId": 1,
+        "name": "Crivină",
+        "order": 12
+    },
+    {
+        "id": 1014,
+        "lineId": 1,
+        "name": "Observatorului",
+        "order": 13
+    },
+    {
+        "id": 1015,
+        "lineId": 1,
+        "name": "Unikat",
+        "order": 14
+    },
+    {
+        "id": 1016,
+        "lineId": 1,
+        "name": "Capelă",
+        "order": 15
+    },
+    {
+        "id": 1017,
+        "lineId": 1,
+        "name": "Complex",
+        "order": 16
+    },
+    {
+        "id": 1018,
+        "lineId": 1,
+        "name": "Spital",
+        "order": 17
+    },
+    {
+        "id": 1019,
+        "lineId": 1,
+        "name": "Petrom",
+        "order": 18
+    },
+    {
+        "id": 1020,
+        "lineId": 1,
+        "name": "Libertății/Protopopiat",
+        "order": 19
+    },
+    {
+        "id": 1021,
+        "lineId": 1,
+        "name": "Sat Sărămaș-Intrare",
+        "order": 20
+    },
+    {
+        "id": 1022,
+        "lineId": 1,
+        "name": "Școală Sărămaș-Capăt Linie",
+        "order": 21
+    },
+    {
+        "id": 1023,
+        "lineId": 1,
+        "name": "Petrom",
+        "order": 22
+    },
+    {
+        "id": 1024,
+        "lineId": 1,
+        "name": "Spital",
+        "order": 23
+    },
+    {
+        "id": 1025,
+        "lineId": 1,
+        "name": "Gară",
+        "order": 24
+    },
+    {
+        "id": 2001,
+        "lineId": 2,
+        "name": "Gară",
+        "order": 0
+    },
+    {
+        "id": 2002,
+        "lineId": 2,
+        "name": "Pârâul lui Băilă",
+        "order": 1
+    },
+    {
+        "id": 2003,
+        "lineId": 2,
+        "name": "Cămin Floroaia",
+        "order": 2
+    },
+    {
+        "id": 2004,
+        "lineId": 2,
+        "name": "La Cruce",
+        "order": 3
+    },
+    {
+        "id": 2005,
+        "lineId": 2,
+        "name": "La Clopotniță",
+        "order": 4
+    },
+    {
+        "id": 2006,
+        "lineId": 2,
+        "name": "Școala Scrădoasa",
+        "order": 5
+    },
+    {
+        "id": 2007,
+        "lineId": 2,
+        "name": "Scrădoasa2-Capăt Linie",
+        "order": 6
+    },
+    {
+        "id": 2008,
+        "lineId": 2,
+        "name": "Școala Scrădoasa",
+        "order": 7
+    },
+    {
+        "id": 2009,
+        "lineId": 2,
+        "name": "La Clopotniță",
+        "order": 8
+    },
+    {
+        "id": 2010,
+        "lineId": 2,
+        "name": "La Cruce",
+        "order": 9
+    },
+    {
+        "id": 2011,
+        "lineId": 2,
+        "name": "Văcărie",
+        "order": 10
+    },
+    {
+        "id": 2012,
+        "lineId": 2,
+        "name": "Casa Nițu",
+        "order": 11
+    },
+    {
+        "id": 2013,
+        "lineId": 2,
+        "name": "Bobeșești",
+        "order": 12
+    },
+    {
+        "id": 2014,
+        "lineId": 2,
+        "name": "Floroița",
+        "order": 13
+    },
+    {
+        "id": 2015,
+        "lineId": 2,
+        "name": "Pârâul lui Băilă",
+        "order": 14
+    },
+    {
+        "id": 2016,
+        "lineId": 2,
+        "name": "Gară",
+        "order": 15
+    },
+    {
+        "id": 3001,
+        "lineId": 3,
+        "name": "Gară",
+        "order": 0
+    },
+    {
+        "id": 3002,
+        "lineId": 3,
+        "name": "Rocab",
+        "order": 1
+    },
+    {
+        "id": 3003,
+        "lineId": 3,
+        "name": "Tunelului",
+        "order": 2
+    },
+    {
+        "id": 3004,
+        "lineId": 3,
+        "name": "Coșul cu Flori",
+        "order": 3
+    },
+    {
+        "id": 3005,
+        "lineId": 3,
+        "name": "Observatorului",
+        "order": 4
+    },
+    {
+        "id": 3006,
+        "lineId": 3,
+        "name": "Prieteniei-Capăt Linie",
+        "order": 5
+    },
+    {
+        "id": 3007,
+        "lineId": 3,
+        "name": "La Lucică",
+        "order": 6
+    },
+    {
+        "id": 3008,
+        "lineId": 3,
+        "name": "Unikat",
+        "order": 7
+    },
+    {
+        "id": 3009,
+        "lineId": 3,
+        "name": "Capelă",
+        "order": 8
+    },
+    {
+        "id": 3010,
+        "lineId": 3,
+        "name": "Complex",
+        "order": 9
+    },
+    {
+        "id": 3011,
+        "lineId": 3,
+        "name": "Gară",
+        "order": 10
+    },
+    {
+        "id": 4001,
+        "lineId": 4,
+        "name": "Gară",
+        "order": 0
+    },
+    {
+        "id": 4002,
+        "lineId": 4,
+        "name": "Casa Familială",
+        "order": 1
+    },
+    {
+        "id": 4003,
+        "lineId": 4,
+        "name": "Pensiunea Roxana",
+        "order": 2
+    },
+    {
+        "id": 4004,
+        "lineId": 4,
+        "name": "Școală Aviatorului",
+        "order": 3
+    },
+    {
+        "id": 4005,
+        "lineId": 4,
+        "name": "Poetului",
+        "order": 4
+    },
+    {
+        "id": 4006,
+        "lineId": 4,
+        "name": "Magazin Aviatorului-Capăt Linie",
+        "order": 5
+    },
+    {
+        "id": 4007,
+        "lineId": 4,
+        "name": "Poetului",
+        "order": 6
+    },
+    {
+        "id": 4008,
+        "lineId": 4,
+        "name": "Școală Aviatorului",
+        "order": 7
+    },
+    {
+        "id": 4009,
+        "lineId": 4,
+        "name": "Pensiunea Roxana",
+        "order": 8
+    },
+    {
+        "id": 4010,
+        "lineId": 4,
+        "name": "Plugarilor",
+        "order": 9
+    },
+    {
+        "id": 4011,
+        "lineId": 4,
+        "name": "Depozit Luca",
+        "order": 10
+    },
+    {
+        "id": 4012,
+        "lineId": 4,
+        "name": "Gară",
+        "order": 11
+    }
+]
