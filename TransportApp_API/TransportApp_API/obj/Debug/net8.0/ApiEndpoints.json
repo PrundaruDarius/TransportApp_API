@@ -10,6 +10,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TransportApp_API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.Models.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TransportApp.API.Controllers.DocumentsController",
     "Method": "GetAll",
     "RelativePath": "api/Documents",
@@ -59,6 +91,26 @@
     "ContainingType": "TransportApp.API.Controllers.StationsController",
     "Method": "Get",
     "RelativePath": "api/Stations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.TestAuthController",
+    "Method": "Private",
+    "RelativePath": "api/TestAuth/private",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.TestAuthController",
+    "Method": "Public",
+    "RelativePath": "api/TestAuth/public",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
