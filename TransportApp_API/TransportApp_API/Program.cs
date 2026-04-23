@@ -111,9 +111,24 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var dbContext = services.GetRequiredService<AppDbContext>();
+
+    if (app.Environment.IsEnvironment("Testing"))
+    {
+        await dbContext.Database.EnsureCreatedAsync();
+    }
+    else
+    {
+        await dbContext.Database.MigrateAsync();
+    }
+
     await DbSeeder.SeedRolesAsync(services);
 }
+
 app.Run();
+
+public partial class Program { }
