@@ -100,7 +100,7 @@
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\TestAuth.cs",
               "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\TestAuth.cs",
               "RelativeToolTip": "TransportApp_API\\Controllers\\TestAuth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-21T06:46:34.61Z",
               "EditorCaption": ""
@@ -115,8 +115,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:55:46.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:55:46.929Z"
             },
             {
               "$type": "Document",
@@ -128,8 +127,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\AnnouncementsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:01:26.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:01:26.457Z"
             },
             {
               "$type": "Document",
@@ -141,8 +139,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\DocumentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:03:03.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:03:03.126Z"
             },
             {
               "$type": "Document",
@@ -154,8 +151,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\PricesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:02:14Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:02:14Z"
             },
             {
               "$type": "Document",
@@ -167,8 +163,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\StationsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:02:28.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:02:28.813Z"
             },
             {
               "$type": "Document",
@@ -180,8 +175,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\TimetableController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:02:45.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:02:45.562Z"
             },
             {
               "$type": "Document",
@@ -193,8 +187,7 @@
               "RelativeToolTip": "TransportApp_API\\Migrations\\20260421061340_InitialIdentity.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:13:40.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T06:13:40.796Z"
             },
             {
               "$type": "Document",
@@ -206,8 +199,7 @@
               "RelativeToolTip": "TransportApp_API\\Data\\DbSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:56:33.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:56:33.295Z"
             },
             {
               "$type": "Document",
@@ -219,8 +211,7 @@
               "RelativeToolTip": "TransportApp_API\\Models\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:52:23.928Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:52:23.928Z"
             },
             {
               "$type": "Document",
@@ -232,8 +223,7 @@
               "RelativeToolTip": "TransportApp_API\\Models\\RegisterRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:52:02.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:52:02.876Z"
             },
             {
               "$type": "Document",
@@ -245,8 +235,7 @@
               "RelativeToolTip": "TransportApp_API\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:43:03.489Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:43:03.489Z"
             },
             {
               "$type": "Document",
@@ -258,8 +247,7 @@
               "RelativeToolTip": "TransportApp_API\\Program.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAG8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T14:59:24.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T14:59:24.18Z"
             },
             {
               "$type": "Document",
@@ -271,21 +259,19 @@
               "RelativeToolTip": "TransportApp_API\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:42:03.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:42:03.196Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "TransportApp_API",
+              "Title": "TransportApp_API.csproj",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\TransportApp_API.csproj",
               "RelativeDocumentMoniker": "TransportApp_API\\TransportApp_API.csproj",
               "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\TransportApp_API.csproj",
               "RelativeToolTip": "TransportApp_API\\TransportApp_API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-21T05:37:50.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-21T05:37:50.221Z"
             },
             {
               "$type": "Document",
@@ -297,8 +283,7 @@
               "RelativeToolTip": "TransportApp_API\\Controllers\\LinesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:01:52.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:01:52.857Z"
             },
             {
               "$type": "Document",
@@ -310,8 +295,7 @@
               "RelativeToolTip": "TransportApp_API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T15:03:09.269Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:03:09.269Z"
             },
             {
               "$type": "Document",
@@ -323,8 +307,7 @@
               "RelativeToolTip": "TransportApp_API\\Data\\prices.json",
               "ViewState": "AgIAAAIAAAAAAAAAAABRwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T15:29:50.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T15:29:50.648Z"
             },
             {
               "$type": "Document",
@@ -336,8 +319,7 @@
               "RelativeToolTip": "TransportApp_API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T14:59:45.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T14:59:45.338Z"
             },
             {
               "$type": "Bookmark",

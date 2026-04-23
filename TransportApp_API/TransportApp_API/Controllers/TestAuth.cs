@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 
 namespace TransportApp_API.Controllers
@@ -10,10 +11,7 @@ namespace TransportApp_API.Controllers
         [HttpGet("public")]
         public IActionResult Public()
         {
-            return Ok(new
-            {
-                message = "public works"
-            });
+            return Ok("public works");
         }
 
         [Authorize]
