@@ -10,5 +10,6 @@ namespace TransportApp_API.Data
             : base(options)
         {
         }
+        public DbSet<Ticket> Tickets { get; set; }
     }
 }
