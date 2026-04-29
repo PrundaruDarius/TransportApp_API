@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TransportApp_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14936b532067b98094687a4aacb9de7b3574987c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e51da790148a7bbf92e1a4e6b3b3293b4b52a88")]
 [assembly: System.Reflection.AssemblyProductAttribute("TransportApp_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TransportApp_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

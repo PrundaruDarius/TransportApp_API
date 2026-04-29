@@ -46,13 +46,12 @@ namespace TransportApp_API.Controllers
                 : null;
         }
 
+        [Authorize(Roles = "User")]
         [HttpPost]
         public async Task<IActionResult> CreateTicket(CreateTicketRequest request)
         {
             if (request.PaymentMethod != "MockCard")
-            {
                 return BadRequest(new { message = "Invalid payment method." });
-            }
 
             var userId = GetUserId();
             var now = DateTime.UtcNow;
@@ -81,6 +80,7 @@ namespace TransportApp_API.Controllers
             });
         }
 
+        [Authorize(Roles = "User")]
         [HttpGet("my")]
         public IActionResult GetMyTickets()
         {
@@ -102,6 +102,7 @@ namespace TransportApp_API.Controllers
             return Ok(tickets);
         }
 
+        [Authorize(Roles = "User")]
         [HttpGet("{id}")]
         public IActionResult GetTicket(int id)
         {
@@ -124,6 +125,7 @@ namespace TransportApp_API.Controllers
             });
         }
 
+        [Authorize(Roles = "User")]
         [HttpPut("{id}/use")]
         public async Task<IActionResult> UseTicket(int id)
         {
@@ -147,6 +149,7 @@ namespace TransportApp_API.Controllers
             {
                 return BadRequest("Ticket already activated");
             }
+
             if (ticket.Status == TicketStatus.Used &&
                 ticket.ExpiresAt.HasValue &&
                 DateTime.UtcNow > ticket.ExpiresAt.Value)
@@ -155,6 +158,7 @@ namespace TransportApp_API.Controllers
                 await _context.SaveChangesAsync();
                 return BadRequest("Ticket expired");
             }
+
             ticket.Status = TicketStatus.Used;
             ticket.ExpiresAt = DateTime.UtcNow.AddMinutes(30);
 
@@ -163,6 +167,7 @@ namespace TransportApp_API.Controllers
             return Ok();
         }
 
+        [Authorize(Roles = "User")]
         [HttpPut("{id}/cancel")]
         public async Task<IActionResult> CancelTicket(int id)
         {
@@ -184,36 +189,7 @@ namespace TransportApp_API.Controllers
             return Ok();
         }
 
-        private decimal GetSingleTicketPrice()
-        {
-            var filePath = Path.Combine(_environment.ContentRootPath, "Data", "prices.json");
-
-            if (!System.IO.File.Exists(filePath))
-                throw new FileNotFoundException("prices.json not found");
-
-            var json = System.IO.File.ReadAllText(filePath);
-
-            using var document = System.Text.Json.JsonDocument.Parse(json);
-
-            var priceText = document.RootElement
-                .GetProperty("singleTickets")[0]
-                .GetProperty("price")
-                .GetString();
-
-            if (string.IsNullOrWhiteSpace(priceText))
-                throw new Exception("Ticket price not found");
-
-            var numericText = priceText
-                .Replace("Lei", "", StringComparison.OrdinalIgnoreCase)
-                .Replace("lei", "", StringComparison.OrdinalIgnoreCase)
-                .Trim();
-
-            if (!decimal.TryParse(numericText, out var price))
-                throw new Exception("Invalid ticket price format");
-
-            return price;
-        }
-
+        [Authorize(Roles = "Controller")]
         [HttpPost("validate")]
         public async Task<IActionResult> ValidateTicket(ValidateTicketRequest request)
         {
@@ -297,6 +273,36 @@ namespace TransportApp_API.Controllers
                 Status = ticket.Status.ToString(),
                 ExpiresAt = ToUtcIso(ticket.ExpiresAt)
             });
+        }
+
+        private decimal GetSingleTicketPrice()
+        {
+            var filePath = Path.Combine(_environment.ContentRootPath, "Data", "prices.json");
+
+            if (!System.IO.File.Exists(filePath))
+                throw new FileNotFoundException("prices.json not found");
+
+            var json = System.IO.File.ReadAllText(filePath);
+
+            using var document = System.Text.Json.JsonDocument.Parse(json);
+
+            var priceText = document.RootElement
+                .GetProperty("singleTickets")[0]
+                .GetProperty("price")
+                .GetString();
+
+            if (string.IsNullOrWhiteSpace(priceText))
+                throw new Exception("Ticket price not found");
+
+            var numericText = priceText
+                .Replace("Lei", "", StringComparison.OrdinalIgnoreCase)
+                .Replace("lei", "", StringComparison.OrdinalIgnoreCase)
+                .Trim();
+
+            if (!decimal.TryParse(numericText, out var price))
+                throw new Exception("Invalid ticket price format");
+
+            return price;
         }
     }
 }

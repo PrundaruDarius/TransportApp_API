@@ -8,7 +8,7 @@ namespace TransportApp_API.Data
         {
             var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
 
-            string[] roles = { "Admin", "User" };
+            string[] roles = { "Admin", "User", "Controller" };
 
             foreach (var role in roles)
             {
