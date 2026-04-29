@@ -192,6 +192,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TransportApp_API.Controllers.TicketsController",
+    "Method": "ValidateTicket",
+    "RelativePath": "api/Tickets/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Tickets.ValidateTicketRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TransportApp.API.Controllers.TimetableController",
     "Method": "Get",
     "RelativePath": "api/Timetable",

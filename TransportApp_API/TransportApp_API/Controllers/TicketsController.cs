@@ -6,13 +6,11 @@ using TransportApp_API.Data;
 using TransportApp_API.DTOs.Tickets;
 using TransportApp_API.Models;
 
-
 namespace TransportApp_API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
     [Authorize]
-
     public class TicketsController : ControllerBase
     {
         private readonly AppDbContext _context;
@@ -31,7 +29,9 @@ namespace TransportApp_API.Controllers
 
         private TicketStatus GetRealStatus(Ticket ticket)
         {
-            if (ticket.Status == TicketStatus.Active && DateTime.UtcNow > ticket.ExpiresAt)
+            if (ticket.Status == TicketStatus.Used &&
+                ticket.ExpiresAt.HasValue &&
+                DateTime.UtcNow > ticket.ExpiresAt.Value)
             {
                 return TicketStatus.Expired;
             }
@@ -39,7 +39,13 @@ namespace TransportApp_API.Controllers
             return ticket.Status;
         }
 
-        
+        private string? ToUtcIso(DateTime? date)
+        {
+            return date.HasValue
+                ? DateTime.SpecifyKind(date.Value, DateTimeKind.Utc).ToString("O")
+                : null;
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateTicket(CreateTicketRequest request)
         {
@@ -49,14 +55,13 @@ namespace TransportApp_API.Controllers
             }
 
             var userId = GetUserId();
-
             var now = DateTime.UtcNow;
 
             var ticket = new Ticket
             {
                 UserId = userId,
                 PurchasedAt = now,
-                ExpiresAt = now.AddMinutes(30),
+                ExpiresAt = null,
                 Price = GetSingleTicketPrice(),
                 Status = TicketStatus.Active,
                 UniqueCode = Guid.NewGuid().ToString()
@@ -68,15 +73,14 @@ namespace TransportApp_API.Controllers
             return Ok(new TicketResponse
             {
                 Id = ticket.Id,
-                PurchasedAt = ticket.PurchasedAt,
-                ExpiresAt = ticket.ExpiresAt,
+                PurchasedAt = DateTime.SpecifyKind(ticket.PurchasedAt, DateTimeKind.Utc).ToString("O"),
+                ExpiresAt = ToUtcIso(ticket.ExpiresAt),
                 Price = ticket.Price,
                 Status = ticket.Status,
                 UniqueCode = ticket.UniqueCode
             });
         }
 
-        
         [HttpGet("my")]
         public IActionResult GetMyTickets()
         {
@@ -88,8 +92,8 @@ namespace TransportApp_API.Controllers
                 .Select(t => new TicketResponse
                 {
                     Id = t.Id,
-                    PurchasedAt = t.PurchasedAt,
-                    ExpiresAt = t.ExpiresAt,
+                    PurchasedAt = DateTime.SpecifyKind(t.PurchasedAt, DateTimeKind.Utc).ToString("O"),
+                    ExpiresAt = ToUtcIso(t.ExpiresAt),
                     Price = t.Price,
                     Status = GetRealStatus(t),
                     UniqueCode = t.UniqueCode
@@ -98,7 +102,6 @@ namespace TransportApp_API.Controllers
             return Ok(tickets);
         }
 
-        
         [HttpGet("{id}")]
         public IActionResult GetTicket(int id)
         {
@@ -113,15 +116,14 @@ namespace TransportApp_API.Controllers
             return Ok(new TicketResponse
             {
                 Id = ticket.Id,
-                PurchasedAt = ticket.PurchasedAt,
-                ExpiresAt = ticket.ExpiresAt,
+                PurchasedAt = DateTime.SpecifyKind(ticket.PurchasedAt, DateTimeKind.Utc).ToString("O"),
+                ExpiresAt = ToUtcIso(ticket.ExpiresAt),
                 Price = ticket.Price,
                 Status = GetRealStatus(ticket),
                 UniqueCode = ticket.UniqueCode
             });
         }
 
-        
         [HttpPut("{id}/use")]
         public async Task<IActionResult> UseTicket(int id)
         {
@@ -133,17 +135,34 @@ namespace TransportApp_API.Controllers
             if (ticket == null)
                 return NotFound();
 
-            if (GetRealStatus(ticket) == TicketStatus.Expired)
+            if (ticket.Status == TicketStatus.Cancelled)
+                return BadRequest("Ticket cancelled");
+
+            if (ticket.Status == TicketStatus.Expired)
                 return BadRequest("Ticket expired");
 
+            if (ticket.Status == TicketStatus.Used &&
+                ticket.ExpiresAt.HasValue &&
+                DateTime.UtcNow <= ticket.ExpiresAt.Value)
+            {
+                return BadRequest("Ticket already activated");
+            }
+            if (ticket.Status == TicketStatus.Used &&
+                ticket.ExpiresAt.HasValue &&
+                DateTime.UtcNow > ticket.ExpiresAt.Value)
+            {
+                ticket.Status = TicketStatus.Expired;
+                await _context.SaveChangesAsync();
+                return BadRequest("Ticket expired");
+            }
             ticket.Status = TicketStatus.Used;
+            ticket.ExpiresAt = DateTime.UtcNow.AddMinutes(30);
 
             await _context.SaveChangesAsync();
 
             return Ok();
         }
 
-        
         [HttpPut("{id}/cancel")]
         public async Task<IActionResult> CancelTicket(int id)
         {
@@ -164,6 +183,7 @@ namespace TransportApp_API.Controllers
 
             return Ok();
         }
+
         private decimal GetSingleTicketPrice()
         {
             var filePath = Path.Combine(_environment.ContentRootPath, "Data", "prices.json");
@@ -192,6 +212,91 @@ namespace TransportApp_API.Controllers
                 throw new Exception("Invalid ticket price format");
 
             return price;
+        }
+
+        [HttpPost("validate")]
+        public async Task<IActionResult> ValidateTicket(ValidateTicketRequest request)
+        {
+            if (string.IsNullOrWhiteSpace(request.UniqueCode))
+            {
+                return BadRequest(new ValidateTicketResponse
+                {
+                    Valid = false,
+                    Message = "Cod QR lipsă."
+                });
+            }
+
+            var ticket = _context.Tickets
+                .FirstOrDefault(t => t.UniqueCode == request.UniqueCode);
+
+            if (ticket == null)
+            {
+                return NotFound(new ValidateTicketResponse
+                {
+                    Valid = false,
+                    Message = "Bilet invalid. Codul nu există."
+                });
+            }
+
+            if (ticket.Status == TicketStatus.Active)
+            {
+                return BadRequest(new ValidateTicketResponse
+                {
+                    Valid = false,
+                    Message = "Biletul nu este activat.",
+                    TicketId = ticket.Id,
+                    Status = ticket.Status.ToString()
+                });
+            }
+
+            if (ticket.Status == TicketStatus.Cancelled)
+            {
+                return BadRequest(new ValidateTicketResponse
+                {
+                    Valid = false,
+                    Message = "Biletul a fost anulat.",
+                    TicketId = ticket.Id,
+                    Status = ticket.Status.ToString()
+                });
+            }
+
+            if (ticket.Status == TicketStatus.Expired)
+            {
+                return BadRequest(new ValidateTicketResponse
+                {
+                    Valid = false,
+                    Message = "Biletul este expirat.",
+                    TicketId = ticket.Id,
+                    Status = ticket.Status.ToString(),
+                    ExpiresAt = ToUtcIso(ticket.ExpiresAt)
+                });
+            }
+
+            if (ticket.Status == TicketStatus.Used &&
+                ticket.ExpiresAt.HasValue &&
+                DateTime.UtcNow > ticket.ExpiresAt.Value)
+            {
+                ticket.Status = TicketStatus.Expired;
+                await _context.SaveChangesAsync();
+
+                return BadRequest(new ValidateTicketResponse
+                {
+                    Valid = false,
+                    Message = "Biletul este expirat.",
+                    TicketId = ticket.Id,
+                    Status = TicketStatus.Expired.ToString(),
+                    ExpiresAt = ToUtcIso(ticket.ExpiresAt)
+                });
+            }
+
+            return Ok(new ValidateTicketResponse
+            {
+                Valid = true,
+                Message = "Bilet valid.",
+                TicketId = ticket.Id,
+                Status = ticket.Status.ToString(),
+                ExpiresAt = ToUtcIso(ticket.ExpiresAt)
+            });
         }
     }
 }

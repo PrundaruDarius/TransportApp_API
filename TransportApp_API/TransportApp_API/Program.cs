@@ -6,6 +6,7 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using TransportApp_API.Data;
 using TransportApp_API.Models;
+using TransportApp_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -94,6 +95,7 @@ builder.Services
     });
 
 builder.Services.AddAuthorization();
+builder.Services.AddHostedService<TicketCleanupService>();
 
 var app = builder.Build();
 
