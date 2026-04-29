@@ -16,7 +16,7 @@ namespace TransportApp_API.Models
 
         public DateTime PurchasedAt { get; set; }
 
-        public DateTime ExpiresAt { get; set; }
+        public DateTime? ExpiresAt { get; set; }
 
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
