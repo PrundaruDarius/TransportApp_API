@@ -98,6 +98,80 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TransportApp_API.Controllers.SubscriptionsController",
+    "Method": "CreateSubscription",
+    "RelativePath": "api/Subscriptions",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Subscriptions.CreateSubscriptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.SubscriptionsController",
+    "Method": "GetSubscription",
+    "RelativePath": "api/Subscriptions/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.SubscriptionsController",
+    "Method": "CancelSubscription",
+    "RelativePath": "api/Subscriptions/{id}/cancel",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.SubscriptionsController",
+    "Method": "GetMySubscriptions",
+    "RelativePath": "api/Subscriptions/my",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.SubscriptionsController",
+    "Method": "ValidateSubscription",
+    "RelativePath": "api/Subscriptions/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Subscriptions.ValidateSubscriptionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TransportApp_API.Controllers.TestAuthController",
     "Method": "Private",
     "RelativePath": "api/TestAuth/private",
