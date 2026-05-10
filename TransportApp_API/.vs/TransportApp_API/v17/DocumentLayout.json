@@ -3,12 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\subscriptions\\validatesubscriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\subscriptions\\validatesubscriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\subscriptions\\validatesubscriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\subscriptions\\validatesubscriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\subscriptions\\subscriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\subscriptions\\subscriptionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\subscriptions\\createsubscriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\subscriptions\\createsubscriptionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\models\\subscriptionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\subscriptionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\validateticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\validateticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\validateticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\validateticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\prices.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\data\\prices.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\models\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\ticketstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\services\\ticketcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\services\\ticketcleanupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\announcements.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,22 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\lines.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\data\\lines.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\ticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\validateticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\validateticketresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\validateticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\validateticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\dtos\\tickets\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\dtos\\tickets\\createticketrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{96850303-4824-49C7-96AB-87E9886CAECC}|TransportApp_API.Tests\\TransportApp_API.Tests.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api.tests\\transportapp_api.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -95,10 +139,6 @@
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\timetablecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\stationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\pricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\controllers\\pricescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -115,20 +155,12 @@
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\transportapp_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\transportapp_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\data\\prices.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|solutionrelative:transportapp_api\\data\\prices.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{07DDEC01-7026-450A-8A5C-F891EA807CE6}|TransportApp_API\\TransportApp_API.csproj|c:\\users\\bby\\desktop\\faculta\\licenta\\transportapp_api\\transportapp_api\\transportapp_api\\controllers\\linescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -146,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -154,68 +186,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "lines.json",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\lines.json",
-              "RelativeDocumentMoniker": "TransportApp_API\\Data\\lines.json",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\lines.json",
-              "RelativeToolTip": "TransportApp_API\\Data\\lines.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-28T12:55:02.263Z"
+              "DocumentIndex": 0,
+              "Title": "SubscriptionsController.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\SubscriptionsController.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\SubscriptionsController.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\SubscriptionsController.cs",
+              "RelativeToolTip": "TransportApp_API\\Controllers\\SubscriptionsController.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAAUwE8BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:28:04.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValidateSubscriptionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionResponse.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionResponse.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionResponse.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:26:25.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "announcements.json",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\announcements.json",
-              "RelativeDocumentMoniker": "TransportApp_API\\Data\\announcements.json",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\announcements.json",
-              "RelativeToolTip": "TransportApp_API\\Data\\announcements.json",
+              "Title": "CreateSubscriptionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\CreateSubscriptionRequest.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Subscriptions\\CreateSubscriptionRequest.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\CreateSubscriptionRequest.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Subscriptions\\CreateSubscriptionRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-28T12:52:04.682Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:25:53.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SubscriptionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\SubscriptionResponse.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Subscriptions\\SubscriptionResponse.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\SubscriptionResponse.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Subscriptions\\SubscriptionResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:26:03.844Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TicketCleanupService.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Services\\TicketCleanupService.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\Services\\TicketCleanupService.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Services\\TicketCleanupService.cs",
-              "RelativeToolTip": "TransportApp_API\\Services\\TicketCleanupService.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvykAAAABAAAAAAAAAA==",
+              "Title": "ValidateSubscriptionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionRequest.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionRequest.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionRequest.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Subscriptions\\ValidateSubscriptionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T11:36:42.044Z"
+              "WhenOpened": "2026-05-07T18:26:16.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TransportApp_API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T05:43:03.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\Subscription.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Models\\Subscription.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\Subscription.cs",
+              "RelativeToolTip": "TransportApp_API\\Models\\Subscription.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwCIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:25:17.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SubscriptionStatus.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\SubscriptionStatus.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Models\\SubscriptionStatus.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\SubscriptionStatus.cs",
+              "RelativeToolTip": "TransportApp_API\\Models\\SubscriptionStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:25:30.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Program.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Program.cs",
               "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Program.cs",
               "RelativeToolTip": "TransportApp_API\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAmwDkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAIwIwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T14:59:24.18Z"
+              "WhenOpened": "2026-04-08T14:59:24.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
+              "Title": "prices.json",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\prices.json",
+              "RelativeDocumentMoniker": "TransportApp_API\\Data\\prices.json",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\prices.json",
+              "RelativeToolTip": "TransportApp_API\\Data\\prices.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T15:29:50.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateTicketRequest.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T07:20:00.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TicketResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T07:20:38.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ValidateTicketRequest.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:01:49.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidateTicketResponse.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
+              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T12:02:10.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\Ticket.cs",
+              "RelativeToolTip": "TransportApp_API\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T07:20:43.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TicketStatus.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\TicketStatus.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Models\\TicketStatus.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\TicketStatus.cs",
+              "RelativeToolTip": "TransportApp_API\\Models\\TicketStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T18:23:13.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\TicketsController.cs",
               "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\TicketsController.cs",
               "RelativeToolTip": "TransportApp_API\\Controllers\\TicketsController.cs",
-              "ViewState": "AgIAACIBAAAAAAAAAAAcwDMBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABUBAAAAAAAAAAAIwDMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-28T07:20:50.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "DbSeeder.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\DbSeeder.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Data\\DbSeeder.cs",
@@ -227,19 +419,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\Ticket.cs",
-              "RelativeToolTip": "TransportApp_API\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwBIAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "TicketCleanupService.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Services\\TicketCleanupService.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Services\\TicketCleanupService.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Services\\TicketCleanupService.cs",
+              "RelativeToolTip": "TransportApp_API\\Services\\TicketCleanupService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvykAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T07:20:43.315Z"
+              "WhenOpened": "2026-04-28T11:36:42.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
+              "Title": "announcements.json",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\announcements.json",
+              "RelativeDocumentMoniker": "TransportApp_API\\Data\\announcements.json",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\announcements.json",
+              "RelativeToolTip": "TransportApp_API\\Data\\announcements.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-28T12:52:04.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "lines.json",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\lines.json",
+              "RelativeDocumentMoniker": "TransportApp_API\\Data\\lines.json",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\lines.json",
+              "RelativeToolTip": "TransportApp_API\\Data\\lines.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-28T12:55:02.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StationsController.cs",
+              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\StationsController.cs",
+              "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\StationsController.cs",
+              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\StationsController.cs",
+              "RelativeToolTip": "TransportApp_API\\Controllers\\StationsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T15:02:28.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "AnnouncementsController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\AnnouncementsController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\AnnouncementsController.cs",
@@ -251,55 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ValidateTicketResponse.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
-              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T12:02:10.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ValidateTicketRequest.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
-              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\ValidateTicketRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T12:01:49.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TicketResponse.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
-              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\TicketResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T07:20:38.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateTicketRequest.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
-              "RelativeToolTip": "TransportApp_API\\DTOs\\Tickets\\CreateTicketRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-28T07:20:00.633Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "TestAssembly.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API.Tests\\TestAssembly.cs",
               "RelativeDocumentMoniker": "TransportApp_API.Tests\\TestAssembly.cs",
@@ -311,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "TransportApp_API.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API.Tests\\TransportApp_API.Tests.csproj",
               "RelativeDocumentMoniker": "TransportApp_API.Tests\\TransportApp_API.Tests.csproj",
@@ -323,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "TestAuthApiTests.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API.Tests\\TestAuthApiTests.cs",
               "RelativeDocumentMoniker": "TransportApp_API.Tests\\TestAuthApiTests.cs",
@@ -335,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 28,
               "Title": "AuthApiTests.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API.Tests\\AuthApiTests.cs",
               "RelativeDocumentMoniker": "TransportApp_API.Tests\\AuthApiTests.cs",
@@ -347,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 25,
               "Title": "AuthTestHelper.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API.Tests\\AuthTestHelper.cs",
               "RelativeDocumentMoniker": "TransportApp_API.Tests\\AuthTestHelper.cs",
@@ -359,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 24,
               "Title": "CustomWebApplicationFactory.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API.Tests\\CustomWebApplicationFactory.cs",
               "RelativeDocumentMoniker": "TransportApp_API.Tests\\CustomWebApplicationFactory.cs",
@@ -371,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\appsettings.json",
               "RelativeDocumentMoniker": "TransportApp_API\\appsettings.json",
@@ -383,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\AuthController.cs",
@@ -395,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "TestAuth.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\TestAuth.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\TestAuth.cs",
@@ -407,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "DocumentsController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\DocumentsController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\DocumentsController.cs",
@@ -419,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "PricesController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\PricesController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\PricesController.cs",
@@ -431,19 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "StationsController.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\StationsController.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\StationsController.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\StationsController.cs",
-              "RelativeToolTip": "TransportApp_API\\Controllers\\StationsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T15:02:28.813Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "TimetableController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\TimetableController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\TimetableController.cs",
@@ -455,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "20260421061340_InitialIdentity.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Migrations\\20260421061340_InitialIdentity.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Migrations\\20260421061340_InitialIdentity.cs",
@@ -467,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Models\\LoginRequest.cs",
@@ -479,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Models\\RegisterRequest.cs",
@@ -491,19 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "TransportApp_API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "TransportApp_API\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:43:03.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 39,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Models\\ApplicationUser.cs",
@@ -515,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 38,
               "Title": "TransportApp_API.csproj",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\TransportApp_API.csproj",
               "RelativeDocumentMoniker": "TransportApp_API\\TransportApp_API.csproj",
@@ -527,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 40,
               "Title": "LinesController.cs",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Controllers\\LinesController.cs",
               "RelativeDocumentMoniker": "TransportApp_API\\Controllers\\LinesController.cs",
@@ -539,19 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "prices.json",
-              "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\prices.json",
-              "RelativeDocumentMoniker": "TransportApp_API\\Data\\prices.json",
-              "ToolTip": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Data\\prices.json",
-              "RelativeToolTip": "TransportApp_API\\Data\\prices.json",
-              "ViewState": "AgIAAAIAAAAAAAAAAABRwBMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T15:29:50.648Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 41,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\BBY\\Desktop\\faculta\\licenta\\TransportApp_API\\TransportApp_API\\TransportApp_API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "TransportApp_API\\Properties\\launchSettings.json",
