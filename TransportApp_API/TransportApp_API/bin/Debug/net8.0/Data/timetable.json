@@ -1,2562 +1,2882 @@
 [
-    {
-        "stationId": 1001,
-        "lineCode": "1",
-        "hour": 5,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 1001,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            0
-        ]
-    },
-    {
-        "stationId": 1001,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 1001,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 1001,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 1002,
-        "lineCode": "1",
-        "hour": 5,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 1002,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            2
-        ]
-    },
-    {
-        "stationId": 1002,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 1002,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 1002,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 1003,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 1003,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            4
-        ]
-    },
-    {
-        "stationId": 1003,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 1003,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 1003,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 1004,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 1004,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            6
-        ]
-    },
-    {
-        "stationId": 1004,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 1004,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 1004,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 1005,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            5
-        ]
-    },
-    {
-        "stationId": 1005,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            8
-        ]
-    },
-    {
-        "stationId": 1005,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 1005,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 1005,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 1006,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            7
-        ]
-    },
-    {
-        "stationId": 1006,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            10
-        ]
-    },
-    {
-        "stationId": 1006,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 1006,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 1006,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 1007,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            9
-        ]
-    },
-    {
-        "stationId": 1007,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            12
-        ]
-    },
-    {
-        "stationId": 1007,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 1007,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 1007,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 1008,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            11
-        ]
-    },
-    {
-        "stationId": 1008,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            14
-        ]
-    },
-    {
-        "stationId": 1008,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 1008,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 1008,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 1009,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            13
-        ]
-    },
-    {
-        "stationId": 1009,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            16
-        ]
-    },
-    {
-        "stationId": 1009,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 1009,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 1009,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 1010,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 1010,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            18
-        ]
-    },
-    {
-        "stationId": 1010,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 1010,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 1010,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 1011,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 1011,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            20
-        ]
-    },
-    {
-        "stationId": 1011,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 1011,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 1011,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 1012,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 1012,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            22
-        ]
-    },
-    {
-        "stationId": 1012,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 1012,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 1012,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 1013,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 1013,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            24
-        ]
-    },
-    {
-        "stationId": 1013,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 1013,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 1013,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 1014,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 1014,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            26
-        ]
-    },
-    {
-        "stationId": 1014,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 1014,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 1014,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 1015,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 1015,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            28
-        ]
-    },
-    {
-        "stationId": 1015,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 1015,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 1015,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 1016,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 1016,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            30
-        ]
-    },
-    {
-        "stationId": 1016,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 1016,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 1016,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 1017,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 1017,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            32
-        ]
-    },
-    {
-        "stationId": 1017,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 1017,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 1017,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 1018,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 1018,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            34
-        ]
-    },
-    {
-        "stationId": 1018,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 1018,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 1018,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 1019,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 1019,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            36
-        ]
-    },
-    {
-        "stationId": 1019,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 1019,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 1019,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 1020,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 1020,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            38
-        ]
-    },
-    {
-        "stationId": 1020,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 1020,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 1020,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 1021,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 1021,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            40
-        ]
-    },
-    {
-        "stationId": 1021,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 1021,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 1021,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 1022,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 1022,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            42
-        ]
-    },
-    {
-        "stationId": 1022,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 1022,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 1022,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 1023,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 1023,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            44
-        ]
-    },
-    {
-        "stationId": 1023,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 1023,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 1023,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 1024,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 1024,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            46
-        ]
-    },
-    {
-        "stationId": 1024,
-        "lineCode": "1",
-        "hour": 13,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 1024,
-        "lineCode": "1",
-        "hour": 15,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 1024,
-        "lineCode": "1",
-        "hour": 17,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 1025,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 1025,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            48
-        ]
-    },
-    {
-        "stationId": 1025,
-        "lineCode": "1",
-        "hour": 13,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 1025,
-        "lineCode": "1",
-        "hour": 15,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 1025,
-        "lineCode": "1",
-        "hour": 17,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 2001,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 2001,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            18
-        ]
-    },
-    {
-        "stationId": 2001,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 2001,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 2001,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 2002,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 2002,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            20
-        ]
-    },
-    {
-        "stationId": 2002,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 2002,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 2002,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 2003,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 2003,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            22
-        ]
-    },
-    {
-        "stationId": 2003,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 2003,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 2003,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 2004,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 2004,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            24
-        ]
-    },
-    {
-        "stationId": 2004,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 2004,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 2004,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 2005,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 2005,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            26
-        ]
-    },
-    {
-        "stationId": 2005,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 2005,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 2005,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 2006,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 2006,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            28
-        ]
-    },
-    {
-        "stationId": 2006,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 2006,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 2006,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 2007,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 2007,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            30
-        ]
-    },
-    {
-        "stationId": 2007,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 2007,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 2007,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 2008,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 2008,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            32
-        ]
-    },
-    {
-        "stationId": 2008,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 2008,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 2008,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 2009,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 2009,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            34
-        ]
-    },
-    {
-        "stationId": 2009,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 2009,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 2009,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 2010,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 2010,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            36
-        ]
-    },
-    {
-        "stationId": 2010,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 2010,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 2010,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 2011,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 2011,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            38
-        ]
-    },
-    {
-        "stationId": 2011,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 2011,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 2011,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 2012,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 2012,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            40
-        ]
-    },
-    {
-        "stationId": 2012,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 2012,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 2012,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 2013,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 2013,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            42
-        ]
-    },
-    {
-        "stationId": 2013,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 2013,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 2013,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 2014,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 2014,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            44
-        ]
-    },
-    {
-        "stationId": 2014,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 2014,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 2014,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 2015,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 2015,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            46
-        ]
-    },
-    {
-        "stationId": 2015,
-        "lineCode": "1",
-        "hour": 13,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 2015,
-        "lineCode": "1",
-        "hour": 15,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 2015,
-        "lineCode": "1",
-        "hour": 17,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 2016,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 2016,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            48
-        ]
-    },
-    {
-        "stationId": 2016,
-        "lineCode": "1",
-        "hour": 13,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 2016,
-        "lineCode": "1",
-        "hour": 15,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 2016,
-        "lineCode": "1",
-        "hour": 17,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 3001,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            1
-        ]
-    },
-    {
-        "stationId": 3001,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            0
-        ]
-    },
-    {
-        "stationId": 3001,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 3001,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 3001,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 3002,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            3
-        ]
-    },
-    {
-        "stationId": 3002,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            2
-        ]
-    },
-    {
-        "stationId": 3002,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 3002,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 3002,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 3003,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            5
-        ]
-    },
-    {
-        "stationId": 3003,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            4
-        ]
-    },
-    {
-        "stationId": 3003,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 3003,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 3003,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 3004,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            7
-        ]
-    },
-    {
-        "stationId": 3004,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            6
-        ]
-    },
-    {
-        "stationId": 3004,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 3004,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 3004,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 3005,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            9
-        ]
-    },
-    {
-        "stationId": 3005,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            8
-        ]
-    },
-    {
-        "stationId": 3005,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 3005,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 3005,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 3006,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            11
-        ]
-    },
-    {
-        "stationId": 3006,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            10
-        ]
-    },
-    {
-        "stationId": 3006,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 3006,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 3006,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 3007,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            13
-        ]
-    },
-    {
-        "stationId": 3007,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            12
-        ]
-    },
-    {
-        "stationId": 3007,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 3007,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 3007,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 3008,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            15
-        ]
-    },
-    {
-        "stationId": 3008,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            14
-        ]
-    },
-    {
-        "stationId": 3008,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 3008,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 3008,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 3009,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            17
-        ]
-    },
-    {
-        "stationId": 3009,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            16
-        ]
-    },
-    {
-        "stationId": 3009,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 3009,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 3009,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 3010,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            19
-        ]
-    },
-    {
-        "stationId": 3010,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            18
-        ]
-    },
-    {
-        "stationId": 3010,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 3010,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 3010,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 3011,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            21
-        ]
-    },
-    {
-        "stationId": 3011,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            20
-        ]
-    },
-    {
-        "stationId": 3011,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 3011,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 3011,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 4001,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            23
-        ]
-    },
-    {
-        "stationId": 4001,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            22
-        ]
-    },
-    {
-        "stationId": 4001,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 4001,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 4001,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 4002,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            25
-        ]
-    },
-    {
-        "stationId": 4002,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            24
-        ]
-    },
-    {
-        "stationId": 4002,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 4002,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 4002,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 4003,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            27
-        ]
-    },
-    {
-        "stationId": 4003,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            26
-        ]
-    },
-    {
-        "stationId": 4003,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 4003,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 4003,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 4004,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            29
-        ]
-    },
-    {
-        "stationId": 4004,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            28
-        ]
-    },
-    {
-        "stationId": 4004,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 4004,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 4004,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 4005,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            31
-        ]
-    },
-    {
-        "stationId": 4005,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            30
-        ]
-    },
-    {
-        "stationId": 4005,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 4005,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 4005,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 4006,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            33
-        ]
-    },
-    {
-        "stationId": 4006,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            32
-        ]
-    },
-    {
-        "stationId": 4006,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 4006,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 4006,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            47
-        ]
-    },
-    {
-        "stationId": 4007,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            35
-        ]
-    },
-    {
-        "stationId": 4007,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            34
-        ]
-    },
-    {
-        "stationId": 4007,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 4007,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 4007,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            49
-        ]
-    },
-    {
-        "stationId": 4008,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            37
-        ]
-    },
-    {
-        "stationId": 4008,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            36
-        ]
-    },
-    {
-        "stationId": 4008,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 4008,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 4008,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            51
-        ]
-    },
-    {
-        "stationId": 4009,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            39
-        ]
-    },
-    {
-        "stationId": 4009,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            38
-        ]
-    },
-    {
-        "stationId": 4009,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 4009,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 4009,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            53
-        ]
-    },
-    {
-        "stationId": 4010,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            41
-        ]
-    },
-    {
-        "stationId": 4010,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            40
-        ]
-    },
-    {
-        "stationId": 4010,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 4010,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 4010,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            55
-        ]
-    },
-    {
-        "stationId": 4011,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            43
-        ]
-    },
-    {
-        "stationId": 4011,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            42
-        ]
-    },
-    {
-        "stationId": 4011,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 4011,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 4011,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            57
-        ]
-    },
-    {
-        "stationId": 4012,
-        "lineCode": "1",
-        "hour": 6,
-        "minutes": [
-            45
-        ]
-    },
-    {
-        "stationId": 4012,
-        "lineCode": "1",
-        "hour": 7,
-        "minutes": [
-            44
-        ]
-    },
-    {
-        "stationId": 4012,
-        "lineCode": "1",
-        "hour": 12,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 4012,
-        "lineCode": "1",
-        "hour": 14,
-        "minutes": [
-            59
-        ]
-    },
-    {
-        "stationId": 4012,
-        "lineCode": "1",
-        "hour": 16,
-        "minutes": [
-            59
-        ]
-    }
-]    
+  {
+    "stationId": 1001,
+    "lineCode": "1",
+    "hour": 5,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1001,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      0
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1001,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1001,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1001,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1002,
+    "lineCode": "1",
+    "hour": 5,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1002,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      2
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1002,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1002,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1002,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1003,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1003,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      4
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1003,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1003,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1003,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1004,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1004,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      6
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1004,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1004,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1004,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1005,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      5
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1005,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      8
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1005,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1005,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1005,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1006,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      7
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1006,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      10
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1006,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1006,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1006,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1007,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      9
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1007,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      12
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1007,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1007,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1007,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1008,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      11
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1008,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      14
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1008,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1008,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1008,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1009,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      13
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1009,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      16
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1009,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1009,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1009,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1010,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1010,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      18
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1010,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1010,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1010,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1011,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1011,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      20
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1011,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1011,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1011,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1012,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1012,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      22
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1012,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1012,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1012,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1013,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1013,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      24
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1013,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1013,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1013,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1014,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1014,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      26
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1014,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1014,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1014,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1015,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1015,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      28
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1015,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1015,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1015,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1016,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1016,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      30
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1016,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1016,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1016,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1017,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1017,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      32
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1017,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1017,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1017,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1018,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1018,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      34
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1018,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1018,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1018,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1019,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1019,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      36
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1019,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1019,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1019,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1020,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1020,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      38
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1020,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1020,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1020,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1021,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1021,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      40
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1021,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1021,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1021,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1022,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1022,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      42
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1022,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1022,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1022,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1023,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1023,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      44
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1023,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1023,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1023,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1024,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1024,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      46
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1024,
+    "lineCode": "1",
+    "hour": 13,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1024,
+    "lineCode": "1",
+    "hour": 15,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1024,
+    "lineCode": "1",
+    "hour": 17,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1025,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1025,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      48
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1025,
+    "lineCode": "1",
+    "hour": 13,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1025,
+    "lineCode": "1",
+    "hour": 15,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 1025,
+    "lineCode": "1",
+    "hour": 17,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2001,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2001,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      18
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2001,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2001,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2001,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2002,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2002,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      20
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2002,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2002,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2002,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2003,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2003,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      22
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2003,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2003,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2003,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2004,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2004,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      24
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2004,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2004,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2004,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2005,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2005,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      26
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2005,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2005,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2005,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2006,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2006,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      28
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2006,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2006,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2006,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2007,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2007,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      30
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2007,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2007,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2007,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2008,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2008,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      32
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2008,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2008,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2008,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2009,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2009,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      34
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2009,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2009,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2009,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2010,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2010,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      36
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2010,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2010,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2010,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2011,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2011,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      38
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2011,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2011,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2011,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2012,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2012,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      40
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2012,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2012,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2012,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2013,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2013,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      42
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2013,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2013,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2013,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2014,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2014,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      44
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2014,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2014,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2014,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2015,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2015,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      46
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2015,
+    "lineCode": "1",
+    "hour": 13,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2015,
+    "lineCode": "1",
+    "hour": 15,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2015,
+    "lineCode": "1",
+    "hour": 17,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2016,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2016,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      48
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2016,
+    "lineCode": "1",
+    "hour": 13,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2016,
+    "lineCode": "1",
+    "hour": 15,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 2016,
+    "lineCode": "1",
+    "hour": 17,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3001,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      1
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3001,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      0
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3001,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3001,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3001,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3002,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      3
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3002,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      2
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3002,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3002,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3002,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3003,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      5
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3003,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      4
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3003,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3003,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3003,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3004,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      7
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3004,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      6
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3004,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3004,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3004,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3005,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      9
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3005,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      8
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3005,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3005,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3005,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3006,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      11
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3006,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      10
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3006,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3006,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3006,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3007,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      13
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3007,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      12
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3007,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3007,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3007,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3008,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      15
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3008,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      14
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3008,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3008,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3008,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3009,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      17
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3009,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      16
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3009,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3009,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3009,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3010,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      19
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3010,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      18
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3010,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3010,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3010,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3011,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      21
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3011,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      20
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3011,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3011,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 3011,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4001,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      23
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4001,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      22
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4001,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4001,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4001,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4002,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      25
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4002,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      24
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4002,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4002,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4002,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4003,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      27
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4003,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      26
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4003,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4003,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4003,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4004,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      29
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4004,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      28
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4004,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4004,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4004,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4005,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      31
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4005,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      30
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4005,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4005,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4005,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4006,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      33
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4006,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      32
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4006,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4006,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4006,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      47
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4007,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      35
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4007,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      34
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4007,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4007,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4007,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      49
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4008,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      37
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4008,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      36
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4008,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4008,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4008,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      51
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4009,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      39
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4009,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      38
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4009,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4009,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4009,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      53
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4010,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      41
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4010,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      40
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4010,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4010,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4010,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      55
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4011,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      43
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4011,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      42
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4011,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4011,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4011,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      57
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4012,
+    "lineCode": "1",
+    "hour": 6,
+    "minutes": [
+      45
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4012,
+    "lineCode": "1",
+    "hour": 7,
+    "minutes": [
+      44
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4012,
+    "lineCode": "1",
+    "hour": 12,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4012,
+    "lineCode": "1",
+    "hour": 14,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  },
+  {
+    "stationId": 4012,
+    "lineCode": "1",
+    "hour": 16,
+    "minutes": [
+      59
+    ],
+    "isActive": true
+  }
+]

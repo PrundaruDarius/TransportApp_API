@@ -1,5 +1,528 @@
 [
   {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminAnnouncementsController",
+    "Method": "GetAnnouncements",
+    "RelativePath": "api/admin/announcements",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminAnnouncementsController",
+    "Method": "CreateAnnouncement",
+    "RelativePath": "api/admin/announcements",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Announcements.CreateAnnouncementRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminAnnouncementsController",
+    "Method": "UpdateAnnouncement",
+    "RelativePath": "api/admin/announcements/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Announcements.UpdateAnnouncementRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminAnnouncementsController",
+    "Method": "DeleteAnnouncement",
+    "RelativePath": "api/admin/announcements/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminDashboardController",
+    "Method": "GetDashboard",
+    "RelativePath": "api/admin/dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminLinesController",
+    "Method": "GetLines",
+    "RelativePath": "api/admin/lines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminLinesController",
+    "Method": "CreateLine",
+    "RelativePath": "api/admin/lines",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Lines.CreateLineRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminLinesController",
+    "Method": "UpdateLine",
+    "RelativePath": "api/admin/lines/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Lines.UpdateLineRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminLinesController",
+    "Method": "DeleteLine",
+    "RelativePath": "api/admin/lines/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminLinesController",
+    "Method": "ActivateLine",
+    "RelativePath": "api/admin/lines/activate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminLinesController",
+    "Method": "DeactivateLine",
+    "RelativePath": "api/admin/lines/deactivate/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminPricesController",
+    "Method": "GetPrices",
+    "RelativePath": "api/admin/prices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminPricesController",
+    "Method": "UpdatePrice",
+    "RelativePath": "api/admin/prices/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Prices.UpdatePriceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminStationsController",
+    "Method": "GetStations",
+    "RelativePath": "api/admin/stations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminStationsController",
+    "Method": "CreateStation",
+    "RelativePath": "api/admin/stations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Stations.CreateStationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminStationsController",
+    "Method": "UpdateStation",
+    "RelativePath": "api/admin/stations/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Stations.UpdateStationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminStationsController",
+    "Method": "DeleteStation",
+    "RelativePath": "api/admin/stations/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminStatisticsController",
+    "Method": "GetMonthlyRevenue",
+    "RelativePath": "api/admin/statistics/revenue/monthly",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminTimetableController",
+    "Method": "GetTimetable",
+    "RelativePath": "api/admin/timetable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminTimetableController",
+    "Method": "CreateEntry",
+    "RelativePath": "api/admin/timetable",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Timetable.CreateTimetableRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminTimetableController",
+    "Method": "UpdateEntry",
+    "RelativePath": "api/admin/timetable/{stationId}/{lineCode}/{hour}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lineCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Timetable.UpdateTimetableRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminTimetableController",
+    "Method": "DeleteEntry",
+    "RelativePath": "api/admin/timetable/{stationId}/{lineCode}/{hour}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lineCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminTimetableController",
+    "Method": "ActivateEntry",
+    "RelativePath": "api/admin/timetable/activate/{stationId}/{lineCode}/{hour}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lineCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminTimetableController",
+    "Method": "DeactivateEntry",
+    "RelativePath": "api/admin/timetable/deactivate/{stationId}/{lineCode}/{hour}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lineCode",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "hour",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/admin/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "GetUser",
+    "RelativePath": "api/admin/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "DisableUser",
+    "RelativePath": "api/admin/users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "AddRole",
+    "RelativePath": "api/admin/users/{id}/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Users.RoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "RemoveRole",
+    "RelativePath": "api/admin/users/{id}/roles/{roleName}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "roleName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "CreateAdmin",
+    "RelativePath": "api/admin/users/create-admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Users.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransportApp_API.Controllers.Admin.AdminUsersController",
+    "Method": "CreateController",
+    "RelativePath": "api/admin/users/create-controller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TransportApp_API.DTOs.Admin.Users.CreateUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TransportApp.API.Controllers.AnnouncementsController",
     "Method": "Get",
     "RelativePath": "api/Announcements",

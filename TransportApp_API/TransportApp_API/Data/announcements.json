@@ -1,9 +1,8 @@
 [
   {
-    "id": "a1",
-    "title": "Modificare program transport",
-    "body": "În data de 1 Mai...",
-    "date": "28.04.2026",
-    "severity": "info"
+    "Id": 1,
+    "Title": "Linie inchisa in data de 4 mai",
+    "Content": "Linia 2 este inchisa pe durata...",
+    "CreatedAt": "2026-05-19T18:08:30.2498976Z"
   }
 ]

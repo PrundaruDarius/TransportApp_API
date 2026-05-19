@@ -145,3 +145,4 @@ C:\Users\BBY\Desktop\faculta\licenta\TransportApp_API\TransportApp_API\Transport
 C:\Users\BBY\Desktop\faculta\licenta\TransportApp_API\TransportApp_API\TransportApp_API\obj\Debug\net8.0\TransportApp_API.genruntimeconfig.cache
 C:\Users\BBY\Desktop\faculta\licenta\TransportApp_API\TransportApp_API\TransportApp_API\obj\Debug\net8.0\ref\TransportApp_API.dll
 C:\Users\BBY\Desktop\faculta\licenta\TransportApp_API\TransportApp_API\TransportApp_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\BBY\Desktop\faculta\licenta\TransportApp_API\TransportApp_API\TransportApp_API\bin\Debug\net8.0\Data\revenue.json
