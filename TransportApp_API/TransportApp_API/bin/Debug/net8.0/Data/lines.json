@@ -1,22 +1,26 @@
 [
-    {
-        "id": 1,
-        "code": "1",
-        "name": "Linia 1 — Gară ⇄ Pasul Buzăului/Școală Sărămaș"
-    },
-    {
-        "id": 2,
-        "code": "2",
-        "name": "Linia 2 — Gară ⇄ Scrădoasa 2"
-    },
-    {
-        "id": 3,
-        "code": "3",
-        "name": "Linia 3 — Gară ⇄ Prieteniei"
-    },
-    {
-        "id": 4,
-        "code": "4",
-        "name": "Linia 4 — Gară ⇄ Magazin Aviatorului"
-    }
+  {
+    "Id": 1,
+    "Code": "1",
+    "Name": "Linia 1 \u2014 Gar\u0103 \u21C4 Pasul Buz\u0103ului/\u0218coal\u0103 S\u0103r\u0103ma\u0219",
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Code": "2",
+    "Name": "Linia 2 \u2014 Gar\u0103 \u21C4 Scr\u0103doasa 2",
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Code": "3",
+    "Name": "Linia 3 \u2014 Gar\u0103 \u21C4 Prieteniei",
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Code": "4",
+    "Name": "Linia 4 \u2014 Gar\u0103 \u21C4 Magazin Aviatorului",
+    "IsActive": true
+  }
 ]

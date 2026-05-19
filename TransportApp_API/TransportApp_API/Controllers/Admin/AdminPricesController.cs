@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using TransportApp_API.Services;
+using System.Text.Json.Nodes;
 using TransportApp_API.DTOs.Admin.Prices;
+using TransportApp_API.Services;
 
 namespace TransportApp_API.Controllers.Admin
 {
@@ -20,22 +21,54 @@ namespace TransportApp_API.Controllers.Admin
         [HttpGet]
         public async Task<IActionResult> GetPrices()
         {
-            var pricesData = await _jsonService.ReadJsonAsync<PriceDto>("prices.json");
-            return Ok(pricesData);
+            var prices = await _jsonService.ReadJsonNodeAsync("prices.json");
+            if (prices == null) return NotFound();
+
+            return Ok(prices);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdatePrice(string id, UpdatePriceRequest request)
         {
-            var prices = await _jsonService.ReadJsonAsync<PriceDto>("prices.json");
-            var priceItem = prices.FirstOrDefault(p => p.Id == id);
-            if (priceItem == null) return NotFound();
+            if (string.IsNullOrWhiteSpace(request.Name))
+                return BadRequest("Name is required.");
 
-            priceItem.Name = request.Name;
-            priceItem.Price = request.Price;
+            if (string.IsNullOrWhiteSpace(request.Price))
+                return BadRequest("Price is required.");
 
-            await _jsonService.WriteJsonAsync("prices.json", prices);
-            return Ok(priceItem);
+            var prices = await _jsonService.ReadJsonNodeAsync("prices.json");
+            if (prices == null) return NotFound();
+
+            var found = false;
+
+            if (prices is JsonObject root)
+            {
+                foreach (var property in root)
+                {
+                    if (property.Value is JsonArray array)
+                    {
+                        foreach (var item in array)
+                        {
+                            if (item is JsonObject obj &&
+                                obj["id"]?.GetValue<string>() == id)
+                            {
+                                obj["name"] = request.Name;
+                                obj["price"] = request.Price;
+                                found = true;
+                                break;
+                            }
+                        }
+                    }
+
+                    if (found) break;
+                }
+            }
+
+            if (!found) return NotFound();
+
+            await _jsonService.WriteJsonNodeAsync("prices.json", prices);
+
+            return Ok(prices);
         }
     }
 }
