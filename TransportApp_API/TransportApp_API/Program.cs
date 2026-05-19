@@ -102,6 +102,7 @@ builder.Services
 builder.Services.AddAuthorization();
 builder.Services.AddHostedService<TicketCleanupService>();
 builder.Services.AddScoped<JsonFileService>();
+builder.Services.AddScoped<RevenueService>();
 
 var app = builder.Build();
 

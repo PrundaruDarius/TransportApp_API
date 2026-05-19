@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "month": "2026-05",
+    "ticketRevenue": 30,
+    "subscriptionRevenue": 285,
+    "totalRevenue": 315
+  }
+]

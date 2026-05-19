@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using TransportApp_API.Data;
 using TransportApp_API.DTOs.Subscriptions;
 using TransportApp_API.Models;
+using TransportApp_API.Services;
 
 namespace TransportApp_API.Controllers
 {
@@ -16,11 +17,16 @@ namespace TransportApp_API.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _environment;
+        private readonly RevenueService _revenueService;
 
-        public SubscriptionsController(AppDbContext context, IWebHostEnvironment environment)
+        public SubscriptionsController(
+            AppDbContext context,
+            IWebHostEnvironment environment,
+            RevenueService revenueService)
         {
             _context = context;
             _environment = environment;
+            _revenueService = revenueService;
         }
 
         private string GetUserId()
@@ -80,6 +86,8 @@ namespace TransportApp_API.Controllers
 
             _context.Subscriptions.Add(subscription);
             await _context.SaveChangesAsync();
+
+            await _revenueService.AddSubscriptionRevenueAsync(subscription.Price, subscription.PurchasedAt);
 
             return Ok(new SubscriptionResponse
             {

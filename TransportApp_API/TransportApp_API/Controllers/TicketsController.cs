@@ -1,10 +1,10 @@
-﻿using System;
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TransportApp_API.Data;
 using TransportApp_API.DTOs.Tickets;
 using TransportApp_API.Models;
+using TransportApp_API.Services;
 
 namespace TransportApp_API.Controllers
 {
@@ -15,11 +15,16 @@ namespace TransportApp_API.Controllers
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _environment;
+        private readonly RevenueService _revenueService;
 
-        public TicketsController(AppDbContext context, IWebHostEnvironment environment)
+        public TicketsController(
+            AppDbContext context,
+            IWebHostEnvironment environment,
+            RevenueService revenueService)
         {
             _context = context;
             _environment = environment;
+            _revenueService = revenueService;
         }
 
         private string GetUserId()
@@ -68,6 +73,8 @@ namespace TransportApp_API.Controllers
 
             _context.Tickets.Add(ticket);
             await _context.SaveChangesAsync();
+
+            await _revenueService.AddTicketRevenueAsync(ticket.Price, ticket.PurchasedAt);
 
             return Ok(new TicketResponse
             {
